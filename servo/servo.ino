@@ -7,7 +7,7 @@
 #define SERVO_FREQ 50 // Analog servos run at ~50 Hz updates
 
 Adafruit_PWMServoDriver servos = Adafruit_PWMServoDriver(0x40);
-
+//OS
 ros::NodeHandle nh;
 
 void servo_cb(const std_msgs::Int32MultiArray &cmd_msg) {
